@@ -18,4 +18,7 @@ node('maven-label'){
         test "Devops"
     }
    
+    stage("download"){
+        download_artifact "http://"
+    }
 }
